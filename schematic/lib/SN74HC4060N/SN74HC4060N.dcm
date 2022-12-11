@@ -1,0 +1,9 @@
+EESchema-DOCLIB  Version 2.0
+#
+$CMP SN74HC4060N
+D 14-Stage Asynchronous Binary Counters And Oscillators
+K
+F http://componentsearchengine.com/Datasheets/1/SN74HC4060N.pdf
+$ENDCMP
+#
+#End Doc Library

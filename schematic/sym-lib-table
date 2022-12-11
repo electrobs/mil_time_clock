@@ -1,0 +1,5 @@
+(sym_lib_table
+  (lib (name "AT89S51-33PU")(type "Legacy")(uri "${KIPRJMOD}/lib/AT89S51-33PU/AT89S51-33PU.lib")(options "")(descr ""))
+  (lib (name "B3F-1020")(type "Legacy")(uri "${KIPRJMOD}/lib/B3F-1020/B3F-1020.lib")(options "")(descr ""))
+  (lib (name "SN74HC4060N")(type "Legacy")(uri "${KIPRJMOD}/lib/SN74HC4060N/SN74HC4060N.lib")(options "")(descr ""))
+)

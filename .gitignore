@@ -1,0 +1,8 @@
+ 
+schematic/LED_DISPLAY_BOARD-backups/
+schematic/MCU_BOARD-backups/
+schematic/Mil_Time_Clock-backups/
+schematic/gerber/
+schematic/backup/
+src/clock_sdcc/exe/
+src/clock_sdcc/obj/

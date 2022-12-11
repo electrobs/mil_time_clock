@@ -1,0 +1,9 @@
+EESchema-DOCLIB  Version 2.0
+#
+$CMP AT89S51-33PU
+D 8-bit Microcontroller with 4K Bytes In-System Programmable Flash
+K
+F https://ww1.microchip.com/downloads/en/devicedoc/doc2487.pdf
+$ENDCMP
+#
+#End Doc Library

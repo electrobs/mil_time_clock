@@ -1,0 +1,4 @@
+(fp_lib_table
+  (lib (name "B3F-1020")(type "KiCad")(uri "${KIPRJMOD}/lib/B3F-1020")(options "")(descr ""))
+  (lib (name "AT89S51-33PU")(type "KiCad")(uri "${KIPRJMOD}/lib/AT89S51-33PU")(options "")(descr ""))
+)
