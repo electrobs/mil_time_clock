@@ -421,10 +421,10 @@
       (reference "#PWR0104") (unit 1) (value "GND") (footprint "")
     )
     (path "/9b4f46fe-6874-4ed6-8941-5b832417f422/a478278d-2ea8-4163-92e1-17473f2ac258"
-      (reference "C1") (unit 1) (value "12pF") (footprint "Capacitor_THT:C_Disc_D4.3mm_W1.9mm_P5.00mm")
+      (reference "C1") (unit 1) (value "47pF") (footprint "Capacitor_THT:C_Disc_D4.3mm_W1.9mm_P5.00mm")
     )
     (path "/9b4f46fe-6874-4ed6-8941-5b832417f422/30233ef8-fc9d-4c6c-b43c-ef905fce6ae3"
-      (reference "C2") (unit 1) (value "5-20pF") (footprint "Capacitor_THT:C_Rect_L7.0mm_W6.5mm_P5.00mm")
+      (reference "C2") (unit 1) (value "6-30pF") (footprint "Capacitor_THT:C_Rect_L7.0mm_W6.5mm_P5.00mm")
     )
     (path "/9b4f46fe-6874-4ed6-8941-5b832417f422/4c8bf671-70da-44f4-b22b-7096bf684acf"
       (reference "C3") (unit 1) (value "100nF") (footprint "Capacitor_THT:C_Disc_D4.3mm_W1.9mm_P5.00mm")
