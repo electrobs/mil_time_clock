@@ -3321,7 +3321,7 @@
     (in_bom yes) (on_board yes)
     (uuid 30bdc37b-72d1-4859-81ca-aa59dbd56a7f)
     (property "Reference" "C26" (id 0) (at 34.925 170.815 90))
-    (property "Value" "12pF" (id 1) (at 34.925 168.275 90))
+    (property "Value" "18pF" (id 1) (at 34.925 168.275 90))
     (property "Footprint" "Capacitor_THT:C_Disc_D4.3mm_W1.9mm_P5.00mm" (id 2) (at 31.115 165.4302 0)
       (effects (font (size 1.27 1.27)) hide)
     )
