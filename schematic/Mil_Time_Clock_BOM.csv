@@ -1,0 +1,45 @@
+Date:,Tue 27 Dec 2022 05:07:47 PM EST,,,,,,,,
+Component Count:,102,,,,,,,,
+,,,,,,,,,
+Collated Components:,,,,,,,,,
+,,,,,,,,,
+Item,Qty,Reference(s),Value,Datasheet,Supplier,Manufacturer,Manufacturer Part Number,Price (Each @1),Price (@ Quantity)
+CAP CER 47PF 100V C0G RADIAL,1,C1,47pF,https://product.tdk.com/en/system/files?file=dam/doc/product/capacitor/ceramic/lead-mlcc/catalog/leadmlcc_halogenfree_fg_en.pdf,Digikey,TDK,FG28C0G2A470JNT00,$0.27,$0.27
+CAP TRIMMER 6.5-30PF 100V TH,1,C2,6-30pF,https://media.digikey.com/pdf/Data%20Sheets/EW%20Electronics-Edmar/GKGxx015_016_Series_DS.pdf,Digikey,EW Electronics,GKG30015,$0.97,$0.97
+CAP CER 0.1UF 100V X7S RADIAL,14,"C3, C4, C5, C6, C7, C8, C9, C10, C17, C18, C19, C22, C23, C25",100nF,https://product.tdk.com/en/system/files?file=dam/doc/product/capacitor/ceramic/lead-mlcc/catalog/leadmlcc_halogenfree_fg_en.pdf,Digkey,TDK,FG28X7S2A104KRT06,$0.38,$5.32
+CAP CER 18PF 100V C0G/NP0 RADIAL,2,"C11, C12",18pF,https://datasheets.kyocera-avx.com/SR-Series.pdf,Digkey,KYOCERA AVX,SR151A180JAR,$0.52,$1.04
+CAP ALUM 4.7UF 20% 16V RADIAL,1,C13,4.7uF,https://www.mouser.com/datasheet/2/212/KEM_A4004_ESK-1103206.pdf,Digikey,Kemet,ESK475M016AC3AA,$0.24,$0.24
+CAP CER 47PF 100V C0G RADIAL,1,C14,47nF,https://product.tdk.com/en/system/files?file=dam/doc/product/capacitor/ceramic/lead-mlcc/catalog/leadmlcc_halogenfree_fg_en.pdf,Digkey,TDK,FG28C0G2A470JNT06,$0.27,$0.27
+CAP ALUM 330UF 20% 6.3V RADIAL,2,"C15, C16",330uF,https://www.mouser.com/datasheet/2/212/KEM_A4004_ESK-1103206.pdf,Digikey,Kemet,ESK337M6R3AE3AA,$0.27,$0.54
+CAP CER 1000PF 100V X7R RADIAL,1,C20,1nF,https://product.tdk.com/en/system/files?file=dam/doc/product/capacitor/ceramic/lead-mlcc/catalog/leadmlcc_halogenfree_fg_en.pdf,Digkey,TDK,FG28X7R2A102KNT06,$0.27,$0.27
+CAP ALUM 47UF 20% 6.3V RADIAL,1,C21,47uF,https://www.mouser.com/datasheet/2/212/KEM_A4004_ESK-1103206.pdf,Digikey,Kemet,ESK476M6R3AC3AA,$0.22,$0.22
+CAP ALUM 10UF 20% 16V RADIAL,1,C24,10uF,https://www.mouser.com/datasheet/2/212/KEM_A4004_ESK-1103206.pdf,Digikey,Kemet,ESK106M016AC3KA,$0.24,$0.24
+CAP CER 18PF 100V C0G RADIAL,1,C26,18pF,https://product.tdk.com/en/system/files?file=dam/doc/product/capacitor/ceramic/lead-mlcc/catalog/leadmlcc_halogenfree_fg_en.pdf,Digikey,TDK,FG28C0G2A180JNT00,$0.29,$0.29
+LED GREEN DIFFUSED 3MM ROUND T/H,9,"D1, D2, D3, D4, D5, D6, D7, D8, D9",LED,https://www.we-online.com/components/products/datasheet/151031VS06000.pdf,Digikey,Würth Elektronik,151031VS06000,$0.17,$1.53
+CONN HEADER R/A 36POS 2.54MM (CUT TO LENGTH),1,"J1, J4 (BOTH ARE SAME PART, BOARD TO BOARD CONNECT)",Conn_01x27,https://multimedia.3m.com/mws/media/22446O/3mtm-100-in-pinstriphdr-295matng-length-929-series-ts0768.pdf,Digikey,3M,929500-01-36-RK,$3.52,$3.52
+0.1W Round Ferrite Speaker,1,J2 – Speaker,Speaker_Conn,https://www.jameco.com/z/45P30S-Panasonic-0-1W-Round-Ferrite-Speaker_2205561.html,Jameco,Panasonic,45P30S,$0.69,$0.69
+DC Power Connectors Power Jack/Connector 2.1mm x 5.5mm,1,J3,Barrel_Jack_Switch,https://www.gravitech.us/poja2x51.html,Mouser,Gravitech,CON-SOCJ-2155,$1.00,$1.00
+TRANS NPN 40V 0.2A TO92-3,5,"Q1, Q2, Q3, Q4, Q5",2N3904,https://www.onsemi.com/pdf/datasheet/pzt3904-d.pdf,Digikey,onsemi,2N3904TFR,$0.38,$1.90
+RES 1K OHM 5% 1/4W AXIAL,2,"R1, R2",1K,https://www.te.com/commerce/DocumentDelivery/DDEController?Action=srchrtrv&DocNm=1773195&DocType=DS&DocLang=English,Digikey,TE Connectivity Passive Product,CFR16J1K0,$0.10,$0.20
+RES 4K7 OHM 5% 1/4W AXIAL,5,"R3, R4, R5, R6, R7",4k7,https://www.te.com/commerce/DocumentDelivery/DDEController?Action=srchrtrv&DocNm=1773195&DocType=DS&DocLang=English,Digikey,TE Connectivity Passive Product,CFR16J4K7,$0.10,$0.50
+RES 1K OHM 5% 1/4W AXIAL,6,"R8, R18, R30, R32, R34, R36",1k,https://www.te.com/commerce/DocumentDelivery/DDEController?Action=srchrtrv&DocNm=1773195&DocType=DS&DocLang=English,Digikey,TE Connectivity Passive Product,CFR16J1K0,$0.10,$0.60
+RES 200K OHM 5% 1/4W AXIAL,1,R9,200k,https://www.seielect.com/catalog/sei-cf_cfm.pdf,Digikey,Stackpole Electronics Inc,CF14JT200K,$0.10,$0.10
+RES 470 OHM 5% 1/4W AXIAL,6,"R10, R11, R12, R13, R14, R21",470R,https://www.te.com/commerce/DocumentDelivery/DDEController?Action=srchrtrv&DocNm=1773195&DocType=DS&DocLang=English,Digikey,TE Connectivity Passive Product,CFR16J470R,$0.10,$0.60
+RES 10M OHM 5% 1/4W AXIAL,1,R15,10M,https://www.seielect.com/catalog/sei-cf_cfm.pdf,Digikey,Stackpole Electronics Inc,CF14JT10M0,$0.10,$0.10
+RES 1K OHM 5% 1/4W AXIAL,1,R16,1K,https://www.te.com/commerce/DocumentDelivery/DDEController?Action=srchrtrv&DocNm=1773195&DocType=DS&DocLang=English,Digikey,TE Connectivity Passive Product,CFR16J1K0,$0.10,$0.10
+RES 10K OHM 5% 1/4W AXIAL,6,"R17, R20, R29, R31, R33, R35",10K,https://www.te.com/commerce/DocumentDelivery/DDEController?Action=srchrtrv&DocNm=1773195&DocType=DS&DocLang=English,Digikey,TE Connectivity Passive Product,CFR16J10K,$0.10,$0.60
+RES 1K OHM 5% 1/4W AXIAL,6,"R22, R23, R24, R25, R26, R27",1K,https://www.te.com/commerce/DocumentDelivery/DDEController?Action=srchrtrv&DocNm=1773195&DocType=DS&DocLang=English,Digikey,TE Connectivity Passive Product,CFR16J1K0,$0.10,$0.60
+RES 10 OHM 5% 1/4W AXIAL,1,R28,10R,https://www.seielect.com/catalog/sei-cf_cfm.pdf,Digikey,Stackpole Electronics Inc,CF14JT10R0,$0.10,$0.10
+RES 100 OHM 5% 1/4W AXIAL,7,"R37, R38, R39, R40, R41, R42, R43",100R,https://www.te.com/commerce/DocumentDelivery/DDEController?Action=srchrtrv&DocNm=1773195&DocType=DS&DocLang=English,Digikey,TE Connectivity Passive Product,CFR16J100R,$0.10,$0.70
+SWITCH TACTILE SPST-NO 0.05A 12V,5,"S1, S2, S3, S4, S5",SPST-NO,https://sten-eswitch-13110800-production.s3.amazonaws.com/system/asset/product_line/data_sheet/144/TL1105.pdf,Digikey,E-Switch,TL1105DF160Q,$0.20,$1.00
+CONN HEADER VERT 1POS,1,TP1,TestPoint,Connector Header Through Hole 1 position,Digikey,Amphenol ICC,861400011YO2LF,$0.10,$0.10
+7 SEGMENT LED DISPLAY,4,"U1, U2, U3, U4",SM420561N,https://www.we-online.com/components/products/datasheet/157142V12703.pdf,Digikey,Würth Elektronik,157142V12703,$1.09,$4.36
+IC AMP CLASS AB MONO 700MW 8DIP,1,U5,LM386,http://www.ti.com/lit/ds/symlink/lm386.pdf,Digikey,Texas Instruments,LM386,$1.34,$1.34
+IC MUX/DEMUX 8X1 16DIP,1,U6,74HC4051,https://www.ti.com/general/docs/suppproductinfo.tsp?distId=10&gotoUrl=https%3A%2F%2Fwww.ti.com%2Flit%2Fgpn%2Fcd74hc4051,Digikey,Texas Instruments,CD74HC4051E,$0.78,$0.78
+IC MCU 8BIT 4KB FLASH 40DIP,1,U7,AT89S51-24PU,https://ww1.microchip.com/downloads/en/DeviceDoc/doc2487.pdf,Digikey,Microchip,AT89S51-24PU,$3.63,$3.63
+IC ASYNC BIN CNTR/OSCIL 16 DIP,1,U9,SN74HC4060N,https://www.ti.com/general/docs/suppproductinfo.tsp?distId=10&gotoUrl=https%3A%2F%2Fwww.ti.com%2Flit%2Fgpn%2Fsn74hc4060,Digikey,Texas Instruments,SN74HC4060N,$0.85,$0.85
+CRYSTAL 32.7680KHZ 12.5PF TH,1,Y1,32.768Khz,https://abracon.com/Resonators/AB38T.pdf,Digikey,Abracon,AB38T-32.768KHZ,$0.17,$0.17
+CRYSTAL 12.0000MHZ 18PF TH,1,Y2,12Mhz,https://www.ctscorp.com/wp-content/uploads/ATS-ATSSM.pdf,Digikey,CTS-Frequency Control,ATS120B-E,$0.36,$0.36
+AC/DC WALL MOUNT ADAPTER 5V 2.5W 2.1x5.5mm Barrel Plug,1,N/A,PSU,https://www.nteinc.com/acdc_adapters/adapters_01.pdf,Digikey,NTE,57-5D-500-4,$10.01,$10.01
+,,,,,,,,,
+Total Cost:,$45.11,,,,,,,,
