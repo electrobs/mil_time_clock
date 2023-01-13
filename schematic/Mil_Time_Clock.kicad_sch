@@ -615,6 +615,9 @@
     (path "/9b4f46fe-6874-4ed6-8941-5b832417f422/63e0bc18-7fda-450f-8693-4efa7cd5720f"
       (reference "R18") (unit 1) (value "1k") (footprint "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal")
     )
+    (path "/9b4f46fe-6874-4ed6-8941-5b832417f422/71e52110-6ac7-4614-b6e7-2c0c200015b1"
+      (reference "R19") (unit 1) (value "8R_OPT") (footprint "Resistor_THT:R_Axial_DIN0414_L11.9mm_D4.5mm_P15.24mm_Horizontal")
+    )
     (path "/9b4f46fe-6874-4ed6-8941-5b832417f422/16f46eb7-3179-4690-ba60-9ec9d64b3378"
       (reference "R20") (unit 1) (value "10K") (footprint "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal")
     )

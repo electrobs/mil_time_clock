@@ -376,7 +376,7 @@
     "last_paths": {
       "gencad": "",
       "idf": "",
-      "netlist": "Tiny Talking Clock.net",
+      "netlist": "Mil_Time_Clock.net",
       "specctra_dsn": "",
       "step": "",
       "vrml": ""
