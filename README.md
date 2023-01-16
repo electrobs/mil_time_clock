@@ -6,7 +6,7 @@ author: Jay Convertino
 
 date: 2022.12.11
 
-license: MIT (software), None (hardware)
+license: MIT (software/hardware)
 
 IMPORTANT: No build instructions are included. All parts needed are here, you're on your own.
 

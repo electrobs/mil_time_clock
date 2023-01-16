@@ -8,7 +8,9 @@
     (title "Military Time Clock")
     (date "2022-12-11")
     (rev "v1.0")
-    (company "JDC")
+    (company "sparkletron")
+    (comment 1 "Jay Convertino")
+    (comment 2 "MIT License")
   )
 
   (lib_symbols
