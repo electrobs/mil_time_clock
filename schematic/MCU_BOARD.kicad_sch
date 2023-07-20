@@ -1463,6 +1463,9 @@
   (junction (at 99.06 180.975) (diameter 0) (color 0 0 0 0)
     (uuid 28c28694-436f-46fd-a8da-1edbdf13d478)
   )
+  (junction (at 172.72 38.1) (diameter 0) (color 0 0 0 0)
+    (uuid 28fff1b7-5e76-4e3f-a05c-0025a6a29c24)
+  )
   (junction (at 65.405 188.595) (diameter 0) (color 0 0 0 0)
     (uuid 2ae2213b-ba8b-4eea-acd2-aaccab265abe)
   )
@@ -1561,6 +1564,9 @@
   )
   (junction (at 109.855 180.975) (diameter 0) (color 0 0 0 0)
     (uuid b0cffcc2-0634-455c-aad2-7d31dbe7d67e)
+  )
+  (junction (at 212.725 27.94) (diameter 0) (color 0 0 0 0)
+    (uuid b2229306-95cc-4433-9cfe-73fb5ffebd9f)
   )
   (junction (at 46.355 49.53) (diameter 0) (color 0 0 0 0)
     (uuid bb6d9033-5927-4fa7-9ff7-955b9c01fc04)
@@ -1813,6 +1819,10 @@
   (wire (pts (xy 97.155 137.16) (xy 85.725 137.16))
     (stroke (width 0) (type default))
     (uuid 2d75710e-f945-42fa-8532-d3ee73683284)
+  )
+  (wire (pts (xy 180.34 27.94) (xy 212.725 27.94))
+    (stroke (width 0) (type default))
+    (uuid 2f104aa3-d27c-420c-a904-94bbd3350de3)
   )
   (wire (pts (xy 215.265 153.67) (xy 216.535 153.67))
     (stroke (width 0) (type default))
@@ -2227,6 +2237,10 @@
   (wire (pts (xy 95.25 102.87) (xy 145.415 102.87))
     (stroke (width 0) (type default))
     (uuid ac0508ad-c24e-42b4-8ce4-54f30d484be5)
+  )
+  (wire (pts (xy 172.72 27.94) (xy 172.72 38.1))
+    (stroke (width 0) (type default))
+    (uuid ac6fe8ba-de91-4149-ac39-a700ffbfb3c5)
   )
   (wire (pts (xy 57.785 144.78) (xy 53.34 144.78))
     (stroke (width 0) (type default))
@@ -2894,6 +2908,11 @@
           (reference "#PWR09") (unit 1)
         )
       )
+      (project "Mil_Time_Clock"
+        (path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55/9b4f46fe-6874-4ed6-8941-5b832417f422"
+          (reference "#PWR010") (unit 1)
+        )
+      )
     )
   )
 
@@ -2903,7 +2922,7 @@
     (property "Reference" "R23" (at 126.365 41.91 90)
       (effects (font (size 1.27 1.27)))
     )
-    (property "Value" "270R" (at 126.365 43.815 90)
+    (property "Value" "1K" (at 126.365 43.815 90)
       (effects (font (size 1.27 1.27)))
     )
     (property "Footprint" "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal" (at 126.365 47.498 90)
@@ -2918,6 +2937,11 @@
       (project "MCU_BOARD"
         (path "/d541c241-6514-4616-8a13-b9e39e22f5ed"
           (reference "R23") (unit 1)
+        )
+      )
+      (project "Mil_Time_Clock"
+        (path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55/9b4f46fe-6874-4ed6-8941-5b832417f422"
+          (reference "R25") (unit 1)
         )
       )
     )
@@ -2943,6 +2967,11 @@
       (project "MCU_BOARD"
         (path "/d541c241-6514-4616-8a13-b9e39e22f5ed"
           (reference "#PWR02") (unit 1)
+        )
+      )
+      (project "Mil_Time_Clock"
+        (path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55/9b4f46fe-6874-4ed6-8941-5b832417f422"
+          (reference "#PWR03") (unit 1)
         )
       )
     )
@@ -2971,6 +3000,11 @@
           (reference "Y1") (unit 1)
         )
       )
+      (project "Mil_Time_Clock"
+        (path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55/9b4f46fe-6874-4ed6-8941-5b832417f422"
+          (reference "Y1") (unit 1)
+        )
+      )
     )
   )
 
@@ -2993,6 +3027,11 @@
     (instances
       (project "MCU_BOARD"
         (path "/d541c241-6514-4616-8a13-b9e39e22f5ed"
+          (reference "#PWR0104") (unit 1)
+        )
+      )
+      (project "Mil_Time_Clock"
+        (path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55/9b4f46fe-6874-4ed6-8941-5b832417f422"
           (reference "#PWR0104") (unit 1)
         )
       )
@@ -3021,6 +3060,11 @@
           (reference "#PWR031") (unit 1)
         )
       )
+      (project "Mil_Time_Clock"
+        (path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55/9b4f46fe-6874-4ed6-8941-5b832417f422"
+          (reference "#PWR032") (unit 1)
+        )
+      )
     )
   )
 
@@ -3045,6 +3089,11 @@
       (project "MCU_BOARD"
         (path "/d541c241-6514-4616-8a13-b9e39e22f5ed"
           (reference "R31") (unit 1)
+        )
+      )
+      (project "Mil_Time_Clock"
+        (path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55/9b4f46fe-6874-4ed6-8941-5b832417f422"
+          (reference "R33") (unit 1)
         )
       )
     )
@@ -3073,6 +3122,11 @@
           (reference "C4") (unit 1)
         )
       )
+      (project "Mil_Time_Clock"
+        (path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55/9b4f46fe-6874-4ed6-8941-5b832417f422"
+          (reference "C4") (unit 1)
+        )
+      )
     )
   )
 
@@ -3098,6 +3152,11 @@
           (reference "#PWR013") (unit 1)
         )
       )
+      (project "Mil_Time_Clock"
+        (path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55/9b4f46fe-6874-4ed6-8941-5b832417f422"
+          (reference "#PWR014") (unit 1)
+        )
+      )
     )
   )
 
@@ -3121,6 +3180,11 @@
       (project "MCU_BOARD"
         (path "/d541c241-6514-4616-8a13-b9e39e22f5ed"
           (reference "#PWR03") (unit 1)
+        )
+      )
+      (project "Mil_Time_Clock"
+        (path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55/9b4f46fe-6874-4ed6-8941-5b832417f422"
+          (reference "#PWR04") (unit 1)
         )
       )
     )
@@ -3149,6 +3213,11 @@
           (reference "R3") (unit 1)
         )
       )
+      (project "Mil_Time_Clock"
+        (path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55/9b4f46fe-6874-4ed6-8941-5b832417f422"
+          (reference "R5") (unit 1)
+        )
+      )
     )
   )
 
@@ -3172,6 +3241,11 @@
       (project "MCU_BOARD"
         (path "/d541c241-6514-4616-8a13-b9e39e22f5ed"
           (reference "#PWR016") (unit 1)
+        )
+      )
+      (project "Mil_Time_Clock"
+        (path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55/9b4f46fe-6874-4ed6-8941-5b832417f422"
+          (reference "#PWR017") (unit 1)
         )
       )
     )
@@ -3200,6 +3274,11 @@
           (reference "R5") (unit 1)
         )
       )
+      (project "Mil_Time_Clock"
+        (path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55/9b4f46fe-6874-4ed6-8941-5b832417f422"
+          (reference "R7") (unit 1)
+        )
+      )
     )
   )
 
@@ -3226,6 +3305,11 @@
           (reference "C10") (unit 1)
         )
       )
+      (project "Mil_Time_Clock"
+        (path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55/9b4f46fe-6874-4ed6-8941-5b832417f422"
+          (reference "C10") (unit 1)
+        )
+      )
     )
   )
 
@@ -3235,7 +3319,7 @@
     (property "Reference" "R18" (at 191.77 33.655 90)
       (effects (font (size 1.27 1.27)))
     )
-    (property "Value" "5K" (at 191.77 35.56 90)
+    (property "Value" "10K" (at 191.77 35.56 90)
       (effects (font (size 1.27 1.27)))
     )
     (property "Footprint" "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal" (at 191.77 39.878 90)
@@ -3250,6 +3334,11 @@
       (project "MCU_BOARD"
         (path "/d541c241-6514-4616-8a13-b9e39e22f5ed"
           (reference "R18") (unit 1)
+        )
+      )
+      (project "Mil_Time_Clock"
+        (path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55/9b4f46fe-6874-4ed6-8941-5b832417f422"
+          (reference "R20") (unit 1)
         )
       )
     )
@@ -3278,6 +3367,11 @@
           (reference "R11") (unit 1)
         )
       )
+      (project "Mil_Time_Clock"
+        (path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55/9b4f46fe-6874-4ed6-8941-5b832417f422"
+          (reference "R13") (unit 1)
+        )
+      )
     )
   )
 
@@ -3301,6 +3395,11 @@
       (project "MCU_BOARD"
         (path "/d541c241-6514-4616-8a13-b9e39e22f5ed"
           (reference "#PWR014") (unit 1)
+        )
+      )
+      (project "Mil_Time_Clock"
+        (path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55/9b4f46fe-6874-4ed6-8941-5b832417f422"
+          (reference "#PWR015") (unit 1)
         )
       )
     )
@@ -3329,6 +3428,11 @@
           (reference "C20") (unit 1)
         )
       )
+      (project "Mil_Time_Clock"
+        (path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55/9b4f46fe-6874-4ed6-8941-5b832417f422"
+          (reference "C20") (unit 1)
+        )
+      )
     )
   )
 
@@ -3338,7 +3442,7 @@
     (property "Reference" "R24" (at 126.365 50.8 90)
       (effects (font (size 1.27 1.27)))
     )
-    (property "Value" "270R" (at 126.365 52.705 90)
+    (property "Value" "1K" (at 126.365 52.705 90)
       (effects (font (size 1.27 1.27)))
     )
     (property "Footprint" "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal" (at 126.365 56.388 90)
@@ -3353,6 +3457,11 @@
       (project "MCU_BOARD"
         (path "/d541c241-6514-4616-8a13-b9e39e22f5ed"
           (reference "R24") (unit 1)
+        )
+      )
+      (project "Mil_Time_Clock"
+        (path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55/9b4f46fe-6874-4ed6-8941-5b832417f422"
+          (reference "R26") (unit 1)
         )
       )
     )
@@ -3378,6 +3487,11 @@
       (project "MCU_BOARD"
         (path "/d541c241-6514-4616-8a13-b9e39e22f5ed"
           (reference "#PWR032") (unit 1)
+        )
+      )
+      (project "Mil_Time_Clock"
+        (path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55/9b4f46fe-6874-4ed6-8941-5b832417f422"
+          (reference "#PWR033") (unit 1)
         )
       )
     )
@@ -3406,6 +3520,11 @@
           (reference "R10") (unit 1)
         )
       )
+      (project "Mil_Time_Clock"
+        (path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55/9b4f46fe-6874-4ed6-8941-5b832417f422"
+          (reference "R12") (unit 1)
+        )
+      )
     )
   )
 
@@ -3415,10 +3534,10 @@
     (property "Reference" "C15" (at 242.57 34.925 90)
       (effects (font (size 1.27 1.27)))
     )
-    (property "Value" "220uF" (at 242.57 36.83 90)
+    (property "Value" "330uF" (at 242.57 36.83 90)
       (effects (font (size 1.27 1.27)))
     )
-    (property "Footprint" "Capacitor_THT:CP_Radial_D10.0mm_P5.00mm_P7.50mm" (at 246.38 39.6748 0)
+    (property "Footprint" "Capacitor_THT:CP_Radial_D6.3mm_P2.50mm" (at 246.38 39.6748 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Datasheet" "~" (at 242.57 40.64 0)
@@ -3429,6 +3548,11 @@
     (instances
       (project "MCU_BOARD"
         (path "/d541c241-6514-4616-8a13-b9e39e22f5ed"
+          (reference "C15") (unit 1)
+        )
+      )
+      (project "Mil_Time_Clock"
+        (path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55/9b4f46fe-6874-4ed6-8941-5b832417f422"
           (reference "C15") (unit 1)
         )
       )
@@ -3455,6 +3579,11 @@
       (project "MCU_BOARD"
         (path "/d541c241-6514-4616-8a13-b9e39e22f5ed"
           (reference "#PWR015") (unit 1)
+        )
+      )
+      (project "Mil_Time_Clock"
+        (path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55/9b4f46fe-6874-4ed6-8941-5b832417f422"
+          (reference "#PWR016") (unit 1)
         )
       )
     )
@@ -3508,6 +3637,11 @@
           (reference "J3") (unit 1)
         )
       )
+      (project "Mil_Time_Clock"
+        (path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55/9b4f46fe-6874-4ed6-8941-5b832417f422"
+          (reference "J4") (unit 1)
+        )
+      )
     )
   )
 
@@ -3517,7 +3651,7 @@
     (property "Reference" "C13" (at 181.61 32.385 90)
       (effects (font (size 1.27 1.27)))
     )
-    (property "Value" "2uF" (at 181.61 34.29 90)
+    (property "Value" "4.7uF" (at 181.61 34.29 90)
       (effects (font (size 1.27 1.27)))
     )
     (property "Footprint" "Capacitor_THT:CP_Radial_D5.0mm_P2.00mm" (at 185.42 37.1348 0)
@@ -3534,6 +3668,11 @@
           (reference "C13") (unit 1)
         )
       )
+      (project "Mil_Time_Clock"
+        (path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55/9b4f46fe-6874-4ed6-8941-5b832417f422"
+          (reference "C13") (unit 1)
+        )
+      )
     )
   )
 
@@ -3546,7 +3685,7 @@
     (property "Value" "2-5pF" (at 34.925 156.845 90)
       (effects (font (size 1.27 1.27)))
     )
-    (property "Footprint" "Capacitor_THT:C_Rect_L10.0mm_W5.0mm_P5.00mm_P7.50mm" (at 34.925 152.4 0)
+    (property "Footprint" "Capacitor_THT:C_Rect_L7.0mm_W6.5mm_P5.00mm" (at 34.925 152.4 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Datasheet" "~" (at 34.925 152.4 0)
@@ -3560,6 +3699,11 @@
           (reference "C2") (unit 1)
         )
       )
+      (project "Mil_Time_Clock"
+        (path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55/9b4f46fe-6874-4ed6-8941-5b832417f422"
+          (reference "C2") (unit 1)
+        )
+      )
     )
   )
 
@@ -3569,7 +3713,7 @@
     (property "Reference" "C26" (at 34.925 170.815 90)
       (effects (font (size 1.27 1.27)))
     )
-    (property "Value" "10pF" (at 34.925 168.275 90)
+    (property "Value" "8pF" (at 34.925 168.275 90)
       (effects (font (size 1.27 1.27)))
     )
     (property "Footprint" "Capacitor_THT:C_Disc_D4.3mm_W1.9mm_P5.00mm" (at 31.115 165.4302 0)
@@ -3583,6 +3727,11 @@
     (instances
       (project "MCU_BOARD"
         (path "/d541c241-6514-4616-8a13-b9e39e22f5ed"
+          (reference "C26") (unit 1)
+        )
+      )
+      (project "Mil_Time_Clock"
+        (path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55/9b4f46fe-6874-4ed6-8941-5b832417f422"
           (reference "C26") (unit 1)
         )
       )
@@ -3612,6 +3761,11 @@
           (reference "C8") (unit 1)
         )
       )
+      (project "Mil_Time_Clock"
+        (path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55/9b4f46fe-6874-4ed6-8941-5b832417f422"
+          (reference "C8") (unit 1)
+        )
+      )
     )
   )
 
@@ -3621,7 +3775,7 @@
     (property "Reference" "R22" (at 126.365 33.02 90)
       (effects (font (size 1.27 1.27)))
     )
-    (property "Value" "270R" (at 126.365 34.925 90)
+    (property "Value" "1K" (at 126.365 34.925 90)
       (effects (font (size 1.27 1.27)))
     )
     (property "Footprint" "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal" (at 126.365 38.608 90)
@@ -3636,6 +3790,11 @@
       (project "MCU_BOARD"
         (path "/d541c241-6514-4616-8a13-b9e39e22f5ed"
           (reference "R22") (unit 1)
+        )
+      )
+      (project "Mil_Time_Clock"
+        (path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55/9b4f46fe-6874-4ed6-8941-5b832417f422"
+          (reference "R24") (unit 1)
         )
       )
     )
@@ -3661,6 +3820,11 @@
       (project "MCU_BOARD"
         (path "/d541c241-6514-4616-8a13-b9e39e22f5ed"
           (reference "#PWR08") (unit 1)
+        )
+      )
+      (project "Mil_Time_Clock"
+        (path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55/9b4f46fe-6874-4ed6-8941-5b832417f422"
+          (reference "#PWR09") (unit 1)
         )
       )
     )
@@ -3689,6 +3853,11 @@
           (reference "R1") (unit 1)
         )
       )
+      (project "Mil_Time_Clock"
+        (path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55/9b4f46fe-6874-4ed6-8941-5b832417f422"
+          (reference "R3") (unit 1)
+        )
+      )
     )
   )
 
@@ -3712,6 +3881,11 @@
       (project "MCU_BOARD"
         (path "/d541c241-6514-4616-8a13-b9e39e22f5ed"
           (reference "#PWR018") (unit 1)
+        )
+      )
+      (project "Mil_Time_Clock"
+        (path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55/9b4f46fe-6874-4ed6-8941-5b832417f422"
+          (reference "#PWR019") (unit 1)
         )
       )
     )
@@ -3740,6 +3914,11 @@
           (reference "R15") (unit 1)
         )
       )
+      (project "Mil_Time_Clock"
+        (path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55/9b4f46fe-6874-4ed6-8941-5b832417f422"
+          (reference "R17") (unit 1)
+        )
+      )
     )
   )
 
@@ -3765,6 +3944,11 @@
           (reference "#PWR034") (unit 1)
         )
       )
+      (project "Mil_Time_Clock"
+        (path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55/9b4f46fe-6874-4ed6-8941-5b832417f422"
+          (reference "#PWR035") (unit 1)
+        )
+      )
     )
   )
 
@@ -3788,6 +3972,11 @@
     (instances
       (project "MCU_BOARD"
         (path "/d541c241-6514-4616-8a13-b9e39e22f5ed"
+          (reference "C9") (unit 1)
+        )
+      )
+      (project "Mil_Time_Clock"
+        (path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55/9b4f46fe-6874-4ed6-8941-5b832417f422"
           (reference "C9") (unit 1)
         )
       )
@@ -3817,6 +4006,11 @@
           (reference "R12") (unit 1)
         )
       )
+      (project "Mil_Time_Clock"
+        (path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55/9b4f46fe-6874-4ed6-8941-5b832417f422"
+          (reference "R14") (unit 1)
+        )
+      )
     )
   )
 
@@ -3840,6 +4034,11 @@
       (project "MCU_BOARD"
         (path "/d541c241-6514-4616-8a13-b9e39e22f5ed"
           (reference "#PWR010") (unit 1)
+        )
+      )
+      (project "Mil_Time_Clock"
+        (path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55/9b4f46fe-6874-4ed6-8941-5b832417f422"
+          (reference "#PWR011") (unit 1)
         )
       )
     )
@@ -3867,6 +4066,11 @@
           (reference "#PWR020") (unit 1)
         )
       )
+      (project "Mil_Time_Clock"
+        (path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55/9b4f46fe-6874-4ed6-8941-5b832417f422"
+          (reference "#PWR021") (unit 1)
+        )
+      )
     )
   )
 
@@ -3890,6 +4094,11 @@
     (instances
       (project "MCU_BOARD"
         (path "/d541c241-6514-4616-8a13-b9e39e22f5ed"
+          (reference "C12") (unit 1)
+        )
+      )
+      (project "Mil_Time_Clock"
+        (path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55/9b4f46fe-6874-4ed6-8941-5b832417f422"
           (reference "C12") (unit 1)
         )
       )
@@ -3920,6 +4129,11 @@
           (reference "Q3") (unit 1)
         )
       )
+      (project "Mil_Time_Clock"
+        (path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55/9b4f46fe-6874-4ed6-8941-5b832417f422"
+          (reference "Q3") (unit 1)
+        )
+      )
     )
   )
 
@@ -3946,6 +4160,11 @@
           (reference "R28") (unit 1)
         )
       )
+      (project "Mil_Time_Clock"
+        (path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55/9b4f46fe-6874-4ed6-8941-5b832417f422"
+          (reference "R30") (unit 1)
+        )
+      )
     )
   )
 
@@ -3969,6 +4188,11 @@
     (instances
       (project "MCU_BOARD"
         (path "/d541c241-6514-4616-8a13-b9e39e22f5ed"
+          (reference "C5") (unit 1)
+        )
+      )
+      (project "Mil_Time_Clock"
+        (path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55/9b4f46fe-6874-4ed6-8941-5b832417f422"
           (reference "C5") (unit 1)
         )
       )
@@ -3998,6 +4222,11 @@
           (reference "R39") (unit 1)
         )
       )
+      (project "Mil_Time_Clock"
+        (path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55/9b4f46fe-6874-4ed6-8941-5b832417f422"
+          (reference "R41") (unit 1)
+        )
+      )
     )
   )
 
@@ -4021,6 +4250,11 @@
     (instances
       (project "MCU_BOARD"
         (path "/d541c241-6514-4616-8a13-b9e39e22f5ed"
+          (reference "C22") (unit 1)
+        )
+      )
+      (project "Mil_Time_Clock"
+        (path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55/9b4f46fe-6874-4ed6-8941-5b832417f422"
           (reference "C22") (unit 1)
         )
       )
@@ -4050,6 +4284,11 @@
           (reference "C3") (unit 1)
         )
       )
+      (project "Mil_Time_Clock"
+        (path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55/9b4f46fe-6874-4ed6-8941-5b832417f422"
+          (reference "C3") (unit 1)
+        )
+      )
     )
   )
 
@@ -4059,7 +4298,7 @@
     (property "Reference" "R20" (at 126.365 15.24 90)
       (effects (font (size 1.27 1.27)))
     )
-    (property "Value" "270R" (at 126.365 17.145 90)
+    (property "Value" "1K" (at 126.365 17.145 90)
       (effects (font (size 1.27 1.27)))
     )
     (property "Footprint" "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal" (at 126.365 20.828 90)
@@ -4076,6 +4315,11 @@
           (reference "R20") (unit 1)
         )
       )
+      (project "Mil_Time_Clock"
+        (path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55/9b4f46fe-6874-4ed6-8941-5b832417f422"
+          (reference "R22") (unit 1)
+        )
+      )
     )
   )
 
@@ -4085,7 +4329,7 @@
     (property "Reference" "R25" (at 126.365 59.69 90)
       (effects (font (size 1.27 1.27)))
     )
-    (property "Value" "270R" (at 126.365 61.595 90)
+    (property "Value" "1K" (at 126.365 61.595 90)
       (effects (font (size 1.27 1.27)))
     )
     (property "Footprint" "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal" (at 126.365 65.278 90)
@@ -4100,6 +4344,11 @@
       (project "MCU_BOARD"
         (path "/d541c241-6514-4616-8a13-b9e39e22f5ed"
           (reference "R25") (unit 1)
+        )
+      )
+      (project "Mil_Time_Clock"
+        (path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55/9b4f46fe-6874-4ed6-8941-5b832417f422"
+          (reference "R27") (unit 1)
         )
       )
     )
@@ -4125,6 +4374,11 @@
     (instances
       (project "MCU_BOARD"
         (path "/d541c241-6514-4616-8a13-b9e39e22f5ed"
+          (reference "C17") (unit 1)
+        )
+      )
+      (project "Mil_Time_Clock"
+        (path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55/9b4f46fe-6874-4ed6-8941-5b832417f422"
           (reference "C17") (unit 1)
         )
       )
@@ -4155,6 +4409,11 @@
           (reference "Q4") (unit 1)
         )
       )
+      (project "Mil_Time_Clock"
+        (path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55/9b4f46fe-6874-4ed6-8941-5b832417f422"
+          (reference "Q4") (unit 1)
+        )
+      )
     )
   )
 
@@ -4178,6 +4437,11 @@
       (project "MCU_BOARD"
         (path "/d541c241-6514-4616-8a13-b9e39e22f5ed"
           (reference "#PWR035") (unit 1)
+        )
+      )
+      (project "Mil_Time_Clock"
+        (path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55/9b4f46fe-6874-4ed6-8941-5b832417f422"
+          (reference "#PWR036") (unit 1)
         )
       )
     )
@@ -4206,6 +4470,11 @@
           (reference "R32") (unit 1)
         )
       )
+      (project "Mil_Time_Clock"
+        (path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55/9b4f46fe-6874-4ed6-8941-5b832417f422"
+          (reference "R34") (unit 1)
+        )
+      )
     )
   )
 
@@ -4228,6 +4497,11 @@
     (instances
       (project "MCU_BOARD"
         (path "/d541c241-6514-4616-8a13-b9e39e22f5ed"
+          (reference "TP1") (unit 1)
+        )
+      )
+      (project "Mil_Time_Clock"
+        (path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55/9b4f46fe-6874-4ed6-8941-5b832417f422"
           (reference "TP1") (unit 1)
         )
       )
@@ -4257,6 +4531,11 @@
           (reference "C25") (unit 1)
         )
       )
+      (project "Mil_Time_Clock"
+        (path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55/9b4f46fe-6874-4ed6-8941-5b832417f422"
+          (reference "C25") (unit 1)
+        )
+      )
     )
   )
 
@@ -4266,7 +4545,7 @@
     (property "Reference" "R14" (at 102.87 83.82 90)
       (effects (font (size 1.27 1.27)))
     )
-    (property "Value" "270R" (at 102.87 85.725 90)
+    (property "Value" "1K" (at 102.87 85.725 90)
       (effects (font (size 1.27 1.27)))
     )
     (property "Footprint" "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal" (at 102.87 89.408 90)
@@ -4281,6 +4560,11 @@
       (project "MCU_BOARD"
         (path "/d541c241-6514-4616-8a13-b9e39e22f5ed"
           (reference "R14") (unit 1)
+        )
+      )
+      (project "Mil_Time_Clock"
+        (path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55/9b4f46fe-6874-4ed6-8941-5b832417f422"
+          (reference "R16") (unit 1)
         )
       )
     )
@@ -4309,6 +4593,11 @@
           (reference "R13") (unit 1)
         )
       )
+      (project "Mil_Time_Clock"
+        (path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55/9b4f46fe-6874-4ed6-8941-5b832417f422"
+          (reference "R15") (unit 1)
+        )
+      )
     )
   )
 
@@ -4333,6 +4622,11 @@
       (project "MCU_BOARD"
         (path "/d541c241-6514-4616-8a13-b9e39e22f5ed"
           (reference "R36") (unit 1)
+        )
+      )
+      (project "Mil_Time_Clock"
+        (path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55/9b4f46fe-6874-4ed6-8941-5b832417f422"
+          (reference "R38") (unit 1)
         )
       )
     )
@@ -4367,6 +4661,11 @@
           (reference "U1") (unit 1)
         )
       )
+      (project "Mil_Time_Clock"
+        (path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55/9b4f46fe-6874-4ed6-8941-5b832417f422"
+          (reference "U5") (unit 1)
+        )
+      )
     )
   )
 
@@ -4376,7 +4675,7 @@
     (property "Reference" "C24" (at 82.55 182.88 0)
       (effects (font (size 1.27 1.27)))
     )
-    (property "Value" "2.2uF" (at 83.185 184.785 0)
+    (property "Value" "10uF" (at 83.185 184.785 0)
       (effects (font (size 1.27 1.27)))
     )
     (property "Footprint" "Capacitor_THT:CP_Radial_D5.0mm_P2.00mm" (at 79.0702 188.595 0)
@@ -4390,6 +4689,11 @@
     (instances
       (project "MCU_BOARD"
         (path "/d541c241-6514-4616-8a13-b9e39e22f5ed"
+          (reference "C24") (unit 1)
+        )
+      )
+      (project "Mil_Time_Clock"
+        (path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55/9b4f46fe-6874-4ed6-8941-5b832417f422"
           (reference "C24") (unit 1)
         )
       )
@@ -4418,6 +4722,11 @@
           (reference "#PWR024") (unit 1)
         )
       )
+      (project "Mil_Time_Clock"
+        (path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55/9b4f46fe-6874-4ed6-8941-5b832417f422"
+          (reference "#PWR025") (unit 1)
+        )
+      )
     )
   )
 
@@ -4440,6 +4749,11 @@
     (instances
       (project "MCU_BOARD"
         (path "/d541c241-6514-4616-8a13-b9e39e22f5ed"
+          (reference "#PWR0103") (unit 1)
+        )
+      )
+      (project "Mil_Time_Clock"
+        (path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55/9b4f46fe-6874-4ed6-8941-5b832417f422"
           (reference "#PWR0103") (unit 1)
         )
       )
@@ -4469,6 +4783,11 @@
           (reference "R16") (unit 1)
         )
       )
+      (project "Mil_Time_Clock"
+        (path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55/9b4f46fe-6874-4ed6-8941-5b832417f422"
+          (reference "R18") (unit 1)
+        )
+      )
     )
   )
 
@@ -4494,6 +4813,11 @@
           (reference "#PWR025") (unit 1)
         )
       )
+      (project "Mil_Time_Clock"
+        (path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55/9b4f46fe-6874-4ed6-8941-5b832417f422"
+          (reference "#PWR026") (unit 1)
+        )
+      )
     )
   )
 
@@ -4516,6 +4840,11 @@
     (instances
       (project "MCU_BOARD"
         (path "/d541c241-6514-4616-8a13-b9e39e22f5ed"
+          (reference "#PWR022") (unit 1)
+        )
+      )
+      (project "Mil_Time_Clock"
+        (path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55/9b4f46fe-6874-4ed6-8941-5b832417f422"
           (reference "#PWR022") (unit 1)
         )
       )
@@ -4589,6 +4918,11 @@
           (reference "IC1") (unit 1)
         )
       )
+      (project "Mil_Time_Clock"
+        (path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55/9b4f46fe-6874-4ed6-8941-5b832417f422"
+          (reference "U9") (unit 1)
+        )
+      )
     )
   )
 
@@ -4613,6 +4947,11 @@
       (project "MCU_BOARD"
         (path "/d541c241-6514-4616-8a13-b9e39e22f5ed"
           (reference "R26") (unit 1)
+        )
+      )
+      (project "Mil_Time_Clock"
+        (path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55/9b4f46fe-6874-4ed6-8941-5b832417f422"
+          (reference "R28") (unit 1)
         )
       )
     )
@@ -4641,6 +4980,11 @@
           (reference "R17") (unit 1)
         )
       )
+      (project "Mil_Time_Clock"
+        (path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55/9b4f46fe-6874-4ed6-8941-5b832417f422"
+          (reference "R19") (unit 1)
+        )
+      )
     )
   )
 
@@ -4663,6 +5007,11 @@
     (instances
       (project "MCU_BOARD"
         (path "/d541c241-6514-4616-8a13-b9e39e22f5ed"
+          (reference "#PWR038") (unit 1)
+        )
+      )
+      (project "Mil_Time_Clock"
+        (path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55/9b4f46fe-6874-4ed6-8941-5b832417f422"
           (reference "#PWR038") (unit 1)
         )
       )
@@ -4691,6 +5040,11 @@
           (reference "#PWR030") (unit 1)
         )
       )
+      (project "Mil_Time_Clock"
+        (path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55/9b4f46fe-6874-4ed6-8941-5b832417f422"
+          (reference "#PWR031") (unit 1)
+        )
+      )
     )
   )
 
@@ -4714,6 +5068,11 @@
       (project "MCU_BOARD"
         (path "/d541c241-6514-4616-8a13-b9e39e22f5ed"
           (reference "#PWR026") (unit 1)
+        )
+      )
+      (project "Mil_Time_Clock"
+        (path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55/9b4f46fe-6874-4ed6-8941-5b832417f422"
+          (reference "#PWR027") (unit 1)
         )
       )
     )
@@ -4742,6 +5101,11 @@
           (reference "J1") (unit 1)
         )
       )
+      (project "Mil_Time_Clock"
+        (path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55/9b4f46fe-6874-4ed6-8941-5b832417f422"
+          (reference "J2") (unit 1)
+        )
+      )
     )
   )
 
@@ -4768,6 +5132,11 @@
           (reference "R40") (unit 1)
         )
       )
+      (project "Mil_Time_Clock"
+        (path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55/9b4f46fe-6874-4ed6-8941-5b832417f422"
+          (reference "R42") (unit 1)
+        )
+      )
     )
   )
 
@@ -4790,6 +5159,11 @@
     (instances
       (project "MCU_BOARD"
         (path "/d541c241-6514-4616-8a13-b9e39e22f5ed"
+          (reference "#PWR0102") (unit 1)
+        )
+      )
+      (project "Mil_Time_Clock"
+        (path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55/9b4f46fe-6874-4ed6-8941-5b832417f422"
           (reference "#PWR0102") (unit 1)
         )
       )
@@ -4820,6 +5194,11 @@
           (reference "Q1") (unit 1)
         )
       )
+      (project "Mil_Time_Clock"
+        (path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55/9b4f46fe-6874-4ed6-8941-5b832417f422"
+          (reference "Q1") (unit 1)
+        )
+      )
     )
   )
 
@@ -4842,6 +5221,11 @@
     (instances
       (project "MCU_BOARD"
         (path "/d541c241-6514-4616-8a13-b9e39e22f5ed"
+          (reference "#PWR040") (unit 1)
+        )
+      )
+      (project "Mil_Time_Clock"
+        (path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55/9b4f46fe-6874-4ed6-8941-5b832417f422"
           (reference "#PWR040") (unit 1)
         )
       )
@@ -4870,6 +5254,11 @@
           (reference "#PWR028") (unit 1)
         )
       )
+      (project "Mil_Time_Clock"
+        (path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55/9b4f46fe-6874-4ed6-8941-5b832417f422"
+          (reference "#PWR029") (unit 1)
+        )
+      )
     )
   )
 
@@ -4894,6 +5283,11 @@
       (project "MCU_BOARD"
         (path "/d541c241-6514-4616-8a13-b9e39e22f5ed"
           (reference "R37") (unit 1)
+        )
+      )
+      (project "Mil_Time_Clock"
+        (path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55/9b4f46fe-6874-4ed6-8941-5b832417f422"
+          (reference "R39") (unit 1)
         )
       )
     )
@@ -4921,6 +5315,11 @@
           (reference "#PWR07") (unit 1)
         )
       )
+      (project "Mil_Time_Clock"
+        (path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55/9b4f46fe-6874-4ed6-8941-5b832417f422"
+          (reference "#PWR08") (unit 1)
+        )
+      )
     )
   )
 
@@ -4944,6 +5343,11 @@
     (instances
       (project "MCU_BOARD"
         (path "/d541c241-6514-4616-8a13-b9e39e22f5ed"
+          (reference "C6") (unit 1)
+        )
+      )
+      (project "Mil_Time_Clock"
+        (path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55/9b4f46fe-6874-4ed6-8941-5b832417f422"
           (reference "C6") (unit 1)
         )
       )
@@ -4973,6 +5377,11 @@
           (reference "R8") (unit 1)
         )
       )
+      (project "Mil_Time_Clock"
+        (path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55/9b4f46fe-6874-4ed6-8941-5b832417f422"
+          (reference "R10") (unit 1)
+        )
+      )
     )
   )
 
@@ -4998,6 +5407,11 @@
           (reference "#PWR036") (unit 1)
         )
       )
+      (project "Mil_Time_Clock"
+        (path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55/9b4f46fe-6874-4ed6-8941-5b832417f422"
+          (reference "#PWR037") (unit 1)
+        )
+      )
     )
   )
 
@@ -5007,7 +5421,7 @@
     (property "Reference" "R21" (at 126.365 24.13 90)
       (effects (font (size 1.27 1.27)))
     )
-    (property "Value" "270R" (at 126.365 26.035 90)
+    (property "Value" "1K" (at 126.365 26.035 90)
       (effects (font (size 1.27 1.27)))
     )
     (property "Footprint" "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal" (at 126.365 29.718 90)
@@ -5022,6 +5436,11 @@
       (project "MCU_BOARD"
         (path "/d541c241-6514-4616-8a13-b9e39e22f5ed"
           (reference "R21") (unit 1)
+        )
+      )
+      (project "Mil_Time_Clock"
+        (path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55/9b4f46fe-6874-4ed6-8941-5b832417f422"
+          (reference "R23") (unit 1)
         )
       )
     )
@@ -5050,6 +5469,11 @@
           (reference "R35") (unit 1)
         )
       )
+      (project "Mil_Time_Clock"
+        (path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55/9b4f46fe-6874-4ed6-8941-5b832417f422"
+          (reference "R37") (unit 1)
+        )
+      )
     )
   )
 
@@ -5073,6 +5497,11 @@
       (project "MCU_BOARD"
         (path "/d541c241-6514-4616-8a13-b9e39e22f5ed"
           (reference "#PWR05") (unit 1)
+        )
+      )
+      (project "Mil_Time_Clock"
+        (path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55/9b4f46fe-6874-4ed6-8941-5b832417f422"
+          (reference "#PWR06") (unit 1)
         )
       )
     )
@@ -5100,6 +5529,11 @@
           (reference "#PWR019") (unit 1)
         )
       )
+      (project "Mil_Time_Clock"
+        (path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55/9b4f46fe-6874-4ed6-8941-5b832417f422"
+          (reference "#PWR020") (unit 1)
+        )
+      )
     )
   )
 
@@ -5123,6 +5557,11 @@
       (project "MCU_BOARD"
         (path "/d541c241-6514-4616-8a13-b9e39e22f5ed"
           (reference "#PWR06") (unit 1)
+        )
+      )
+      (project "Mil_Time_Clock"
+        (path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55/9b4f46fe-6874-4ed6-8941-5b832417f422"
+          (reference "#PWR07") (unit 1)
         )
       )
     )
@@ -5151,6 +5590,11 @@
           (reference "C19") (unit 1)
         )
       )
+      (project "Mil_Time_Clock"
+        (path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55/9b4f46fe-6874-4ed6-8941-5b832417f422"
+          (reference "C19") (unit 1)
+        )
+      )
     )
   )
 
@@ -5176,6 +5620,11 @@
           (reference "#PWR027") (unit 1)
         )
       )
+      (project "Mil_Time_Clock"
+        (path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55/9b4f46fe-6874-4ed6-8941-5b832417f422"
+          (reference "#PWR028") (unit 1)
+        )
+      )
     )
   )
 
@@ -5188,7 +5637,7 @@
     (property "Value" "47pF" (at 34.925 140.97 90)
       (effects (font (size 1.27 1.27)))
     )
-    (property "Footprint" "Capacitor_THT:C_Disc_D3.0mm_W1.6mm_P2.50mm" (at 38.735 143.8148 0)
+    (property "Footprint" "Capacitor_THT:C_Disc_D4.3mm_W1.9mm_P5.00mm" (at 38.735 143.8148 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Datasheet" "~" (at 34.925 144.78 0)
@@ -5199,6 +5648,11 @@
     (instances
       (project "MCU_BOARD"
         (path "/d541c241-6514-4616-8a13-b9e39e22f5ed"
+          (reference "C1") (unit 1)
+        )
+      )
+      (project "Mil_Time_Clock"
+        (path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55/9b4f46fe-6874-4ed6-8941-5b832417f422"
           (reference "C1") (unit 1)
         )
       )
@@ -5242,6 +5696,11 @@
           (reference "U6") (unit 1)
         )
       )
+      (project "Mil_Time_Clock"
+        (path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55/9b4f46fe-6874-4ed6-8941-5b832417f422"
+          (reference "U6") (unit 1)
+        )
+      )
     )
   )
 
@@ -5268,6 +5727,11 @@
           (reference "R9") (unit 1)
         )
       )
+      (project "Mil_Time_Clock"
+        (path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55/9b4f46fe-6874-4ed6-8941-5b832417f422"
+          (reference "R11") (unit 1)
+        )
+      )
     )
   )
 
@@ -5290,6 +5754,11 @@
     (instances
       (project "MCU_BOARD"
         (path "/d541c241-6514-4616-8a13-b9e39e22f5ed"
+          (reference "#PWR0101") (unit 1)
+        )
+      )
+      (project "Mil_Time_Clock"
+        (path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55/9b4f46fe-6874-4ed6-8941-5b832417f422"
           (reference "#PWR0101") (unit 1)
         )
       )
@@ -5319,6 +5788,11 @@
           (reference "C7") (unit 1)
         )
       )
+      (project "Mil_Time_Clock"
+        (path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55/9b4f46fe-6874-4ed6-8941-5b832417f422"
+          (reference "C7") (unit 1)
+        )
+      )
     )
   )
 
@@ -5342,6 +5816,11 @@
     (instances
       (project "MCU_BOARD"
         (path "/d541c241-6514-4616-8a13-b9e39e22f5ed"
+          (reference "C23") (unit 1)
+        )
+      )
+      (project "Mil_Time_Clock"
+        (path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55/9b4f46fe-6874-4ed6-8941-5b832417f422"
           (reference "C23") (unit 1)
         )
       )
@@ -5371,6 +5850,11 @@
           (reference "R38") (unit 1)
         )
       )
+      (project "Mil_Time_Clock"
+        (path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55/9b4f46fe-6874-4ed6-8941-5b832417f422"
+          (reference "R40") (unit 1)
+        )
+      )
     )
   )
 
@@ -5394,6 +5878,11 @@
       (project "MCU_BOARD"
         (path "/d541c241-6514-4616-8a13-b9e39e22f5ed"
           (reference "#PWR012") (unit 1)
+        )
+      )
+      (project "Mil_Time_Clock"
+        (path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55/9b4f46fe-6874-4ed6-8941-5b832417f422"
+          (reference "#PWR013") (unit 1)
         )
       )
     )
@@ -5423,6 +5912,11 @@
           (reference "Q5") (unit 1)
         )
       )
+      (project "Mil_Time_Clock"
+        (path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55/9b4f46fe-6874-4ed6-8941-5b832417f422"
+          (reference "Q5") (unit 1)
+        )
+      )
     )
   )
 
@@ -5447,6 +5941,11 @@
       (project "MCU_BOARD"
         (path "/d541c241-6514-4616-8a13-b9e39e22f5ed"
           (reference "R2") (unit 1)
+        )
+      )
+      (project "Mil_Time_Clock"
+        (path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55/9b4f46fe-6874-4ed6-8941-5b832417f422"
+          (reference "R4") (unit 1)
         )
       )
     )
@@ -5475,6 +5974,11 @@
           (reference "R6") (unit 1)
         )
       )
+      (project "Mil_Time_Clock"
+        (path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55/9b4f46fe-6874-4ed6-8941-5b832417f422"
+          (reference "R8") (unit 1)
+        )
+      )
     )
   )
 
@@ -5498,6 +6002,11 @@
       (project "MCU_BOARD"
         (path "/d541c241-6514-4616-8a13-b9e39e22f5ed"
           (reference "#PWR0105") (unit 1)
+        )
+      )
+      (project "Mil_Time_Clock"
+        (path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55/9b4f46fe-6874-4ed6-8941-5b832417f422"
+          (reference "#PWR023") (unit 1)
         )
       )
     )
@@ -5526,6 +6035,11 @@
           (reference "R41") (unit 1)
         )
       )
+      (project "Mil_Time_Clock"
+        (path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55/9b4f46fe-6874-4ed6-8941-5b832417f422"
+          (reference "R43") (unit 1)
+        )
+      )
     )
   )
 
@@ -5549,6 +6063,11 @@
       (project "MCU_BOARD"
         (path "/d541c241-6514-4616-8a13-b9e39e22f5ed"
           (reference "#PWR011") (unit 1)
+        )
+      )
+      (project "Mil_Time_Clock"
+        (path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55/9b4f46fe-6874-4ed6-8941-5b832417f422"
+          (reference "#PWR012") (unit 1)
         )
       )
     )
@@ -5578,6 +6097,11 @@
           (reference "Q2") (unit 1)
         )
       )
+      (project "Mil_Time_Clock"
+        (path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55/9b4f46fe-6874-4ed6-8941-5b832417f422"
+          (reference "Q2") (unit 1)
+        )
+      )
     )
   )
 
@@ -5602,6 +6126,11 @@
       (project "MCU_BOARD"
         (path "/d541c241-6514-4616-8a13-b9e39e22f5ed"
           (reference "R29") (unit 1)
+        )
+      )
+      (project "Mil_Time_Clock"
+        (path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55/9b4f46fe-6874-4ed6-8941-5b832417f422"
+          (reference "R31") (unit 1)
         )
       )
     )
@@ -5629,6 +6158,11 @@
           (reference "#PWR01") (unit 1)
         )
       )
+      (project "Mil_Time_Clock"
+        (path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55/9b4f46fe-6874-4ed6-8941-5b832417f422"
+          (reference "#PWR02") (unit 1)
+        )
+      )
     )
   )
 
@@ -5652,6 +6186,11 @@
     (instances
       (project "MCU_BOARD"
         (path "/d541c241-6514-4616-8a13-b9e39e22f5ed"
+          (reference "C21") (unit 1)
+        )
+      )
+      (project "Mil_Time_Clock"
+        (path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55/9b4f46fe-6874-4ed6-8941-5b832417f422"
           (reference "C21") (unit 1)
         )
       )
@@ -5681,6 +6220,11 @@
           (reference "R34") (unit 1)
         )
       )
+      (project "Mil_Time_Clock"
+        (path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55/9b4f46fe-6874-4ed6-8941-5b832417f422"
+          (reference "R36") (unit 1)
+        )
+      )
     )
   )
 
@@ -5707,6 +6251,11 @@
           (reference "R33") (unit 1)
         )
       )
+      (project "Mil_Time_Clock"
+        (path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55/9b4f46fe-6874-4ed6-8941-5b832417f422"
+          (reference "R35") (unit 1)
+        )
+      )
     )
   )
 
@@ -5730,6 +6279,11 @@
       (project "MCU_BOARD"
         (path "/d541c241-6514-4616-8a13-b9e39e22f5ed"
           (reference "#PWR023") (unit 1)
+        )
+      )
+      (project "Mil_Time_Clock"
+        (path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55/9b4f46fe-6874-4ed6-8941-5b832417f422"
+          (reference "#PWR024") (unit 1)
         )
       )
     )
@@ -5758,6 +6312,11 @@
           (reference "C11") (unit 1)
         )
       )
+      (project "Mil_Time_Clock"
+        (path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55/9b4f46fe-6874-4ed6-8941-5b832417f422"
+          (reference "C11") (unit 1)
+        )
+      )
     )
   )
 
@@ -5783,6 +6342,42 @@
           (reference "#PWR029") (unit 1)
         )
       )
+      (project "Mil_Time_Clock"
+        (path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55/9b4f46fe-6874-4ed6-8941-5b832417f422"
+          (reference "#PWR030") (unit 1)
+        )
+      )
+    )
+  )
+
+  (symbol (lib_id "Device:R") (at 176.53 27.94 270) (mirror x) (unit 1)
+    (in_bom yes) (on_board yes) (dnp no)
+    (uuid d5e7881d-b4d9-4952-a8cd-b1d361d24162)
+    (property "Reference" "R18" (at 176.53 23.495 90)
+      (effects (font (size 1.27 1.27)))
+    )
+    (property "Value" "470R" (at 176.53 25.4 90)
+      (effects (font (size 1.27 1.27)))
+    )
+    (property "Footprint" "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal" (at 176.53 29.718 90)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "Datasheet" "~" (at 176.53 27.94 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (pin "1" (uuid d476342b-3c13-4ef8-9d71-5184b3e3fd0c))
+    (pin "2" (uuid ce74582e-74a4-4d34-b853-43cdd9a179f4))
+    (instances
+      (project "MCU_BOARD"
+        (path "/d541c241-6514-4616-8a13-b9e39e22f5ed"
+          (reference "R18") (unit 1)
+        )
+      )
+      (project "Mil_Time_Clock"
+        (path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55/9b4f46fe-6874-4ed6-8941-5b832417f422"
+          (reference "R44") (unit 1)
+        )
+      )
     )
   )
 
@@ -5805,6 +6400,11 @@
       (project "MCU_BOARD"
         (path "/d541c241-6514-4616-8a13-b9e39e22f5ed"
           (reference "H1") (unit 1)
+        )
+      )
+      (project "Mil_Time_Clock"
+        (path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55/9b4f46fe-6874-4ed6-8941-5b832417f422"
+          (reference "H3") (unit 1)
         )
       )
     )
@@ -5833,6 +6433,11 @@
           (reference "R27") (unit 1)
         )
       )
+      (project "Mil_Time_Clock"
+        (path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55/9b4f46fe-6874-4ed6-8941-5b832417f422"
+          (reference "R29") (unit 1)
+        )
+      )
     )
   )
 
@@ -5856,6 +6461,11 @@
     (instances
       (project "MCU_BOARD"
         (path "/d541c241-6514-4616-8a13-b9e39e22f5ed"
+          (reference "C18") (unit 1)
+        )
+      )
+      (project "Mil_Time_Clock"
+        (path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55/9b4f46fe-6874-4ed6-8941-5b832417f422"
           (reference "C18") (unit 1)
         )
       )
@@ -5886,6 +6496,11 @@
           (reference "J2") (unit 1)
         )
       )
+      (project "Mil_Time_Clock"
+        (path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55/9b4f46fe-6874-4ed6-8941-5b832417f422"
+          (reference "J3") (unit 1)
+        )
+      )
     )
   )
 
@@ -5895,10 +6510,10 @@
     (property "Reference" "C14" (at 231.14 38.1001 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
-    (property "Value" "47pF" (at 231.14 35.5601 0)
+    (property "Value" "47nF" (at 231.14 35.5601 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
-    (property "Footprint" "Capacitor_THT:C_Disc_D3.0mm_W2.0mm_P2.50mm" (at 233.3498 33.02 0)
+    (property "Footprint" "Capacitor_THT:C_Disc_D4.3mm_W1.9mm_P5.00mm" (at 233.3498 33.02 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Datasheet" "~" (at 234.315 36.83 0)
@@ -5912,6 +6527,11 @@
           (reference "C14") (unit 1)
         )
       )
+      (project "Mil_Time_Clock"
+        (path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55/9b4f46fe-6874-4ed6-8941-5b832417f422"
+          (reference "C14") (unit 1)
+        )
+      )
     )
   )
 
@@ -5921,7 +6541,7 @@
     (property "Reference" "R7" (at 49.53 157.48 90)
       (effects (font (size 1.27 1.27)))
     )
-    (property "Value" "1M" (at 49.53 154.94 90)
+    (property "Value" "200k" (at 49.53 154.94 90)
       (effects (font (size 1.27 1.27)))
     )
     (property "Footprint" "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal" (at 49.53 154.178 90)
@@ -5936,6 +6556,11 @@
       (project "MCU_BOARD"
         (path "/d541c241-6514-4616-8a13-b9e39e22f5ed"
           (reference "R7") (unit 1)
+        )
+      )
+      (project "Mil_Time_Clock"
+        (path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55/9b4f46fe-6874-4ed6-8941-5b832417f422"
+          (reference "R9") (unit 1)
         )
       )
     )
@@ -6032,6 +6657,11 @@
           (reference "IC2") (unit 1)
         )
       )
+      (project "Mil_Time_Clock"
+        (path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55/9b4f46fe-6874-4ed6-8941-5b832417f422"
+          (reference "U7") (unit 1)
+        )
+      )
     )
   )
 
@@ -6058,6 +6688,11 @@
           (reference "R4") (unit 1)
         )
       )
+      (project "Mil_Time_Clock"
+        (path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55/9b4f46fe-6874-4ed6-8941-5b832417f422"
+          (reference "R6") (unit 1)
+        )
+      )
     )
   )
 
@@ -6067,7 +6702,7 @@
     (property "Reference" "R19" (at 201.295 43.18 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
-    (property "Value" "500R" (at 202.565 40.64 0)
+    (property "Value" "470R" (at 202.565 40.64 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Footprint" "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal" (at 197.993 41.91 90)
@@ -6082,6 +6717,11 @@
       (project "MCU_BOARD"
         (path "/d541c241-6514-4616-8a13-b9e39e22f5ed"
           (reference "R19") (unit 1)
+        )
+      )
+      (project "Mil_Time_Clock"
+        (path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55/9b4f46fe-6874-4ed6-8941-5b832417f422"
+          (reference "R21") (unit 1)
         )
       )
     )
@@ -6109,6 +6749,11 @@
           (reference "#PWR033") (unit 1)
         )
       )
+      (project "Mil_Time_Clock"
+        (path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55/9b4f46fe-6874-4ed6-8941-5b832417f422"
+          (reference "#PWR034") (unit 1)
+        )
+      )
     )
   )
 
@@ -6131,6 +6776,11 @@
     (instances
       (project "MCU_BOARD"
         (path "/d541c241-6514-4616-8a13-b9e39e22f5ed"
+          (reference "#PWR039") (unit 1)
+        )
+      )
+      (project "Mil_Time_Clock"
+        (path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55/9b4f46fe-6874-4ed6-8941-5b832417f422"
           (reference "#PWR039") (unit 1)
         )
       )
@@ -6160,6 +6810,11 @@
           (reference "Y2") (unit 1)
         )
       )
+      (project "Mil_Time_Clock"
+        (path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55/9b4f46fe-6874-4ed6-8941-5b832417f422"
+          (reference "Y2") (unit 1)
+        )
+      )
     )
   )
 
@@ -6186,6 +6841,11 @@
           (reference "R30") (unit 1)
         )
       )
+      (project "Mil_Time_Clock"
+        (path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55/9b4f46fe-6874-4ed6-8941-5b832417f422"
+          (reference "R32") (unit 1)
+        )
+      )
     )
   )
 
@@ -6195,10 +6855,10 @@
     (property "Reference" "C16" (at 69.215 182.6259 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
-    (property "Value" "470uF" (at 68.58 184.785 0)
+    (property "Value" "330uF" (at 68.58 184.785 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
-    (property "Footprint" "Capacitor_THT:CP_Radial_D10.0mm_P5.00mm_P7.50mm" (at 66.3702 188.595 0)
+    (property "Footprint" "Capacitor_THT:CP_Radial_D6.3mm_P2.50mm" (at 66.3702 188.595 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Datasheet" "~" (at 65.405 184.785 0)
@@ -6209,6 +6869,11 @@
     (instances
       (project "MCU_BOARD"
         (path "/d541c241-6514-4616-8a13-b9e39e22f5ed"
+          (reference "C16") (unit 1)
+        )
+      )
+      (project "Mil_Time_Clock"
+        (path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55/9b4f46fe-6874-4ed6-8941-5b832417f422"
           (reference "C16") (unit 1)
         )
       )
@@ -6237,6 +6902,11 @@
           (reference "#PWR017") (unit 1)
         )
       )
+      (project "Mil_Time_Clock"
+        (path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55/9b4f46fe-6874-4ed6-8941-5b832417f422"
+          (reference "#PWR018") (unit 1)
+        )
+      )
     )
   )
 
@@ -6260,6 +6930,11 @@
       (project "MCU_BOARD"
         (path "/d541c241-6514-4616-8a13-b9e39e22f5ed"
           (reference "#PWR04") (unit 1)
+        )
+      )
+      (project "Mil_Time_Clock"
+        (path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55/9b4f46fe-6874-4ed6-8941-5b832417f422"
+          (reference "#PWR05") (unit 1)
         )
       )
     )
