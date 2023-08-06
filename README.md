@@ -12,14 +12,16 @@ IMPORTANT: No build instructions are included. All parts needed are here, you're
 
 ## Release Versions
 ### Current
-  - v1.0.0
+  - v1.0.2 = Fixed time base issues with a smaller range tuning cap.
 
 ### Past
-  - none
+  - v1.0.1 = Sound buzz fixed with feedback bypass resistor.
+  - v1.0.0 = Original Version
+
 
 ## Requirements
 ### Hardware
-  - KiCad (v6.0.X)
+  - KiCad (v7.X.X)
 
 ### Software
   - sdcc compiler (4.0.0 #11528)
@@ -40,3 +42,6 @@ IMPORTANT: No build instructions are included. All parts needed are here, you're
 
 ### Usage
   Please see the user manual on how to use the project. Build instructions really depend on how you want to build it. It uses all through hole parts and could be done with something as simple as an etch kit, PCB mill, or a PCB fab.
+
+### Tuning
+  Recommend using a platic tuning tool to adjust trimmer cap. Track the freqency at the 2.048kHz and lower pins till they all match there expected outputs (all powers of two, 1024, 512, 128 etc). Also let the device run for about 15 minutes and check. Frequency will rise by 1 to 2 hz and then stablize within the first 30 seconds, but it is wise to triple check after some time has passed.

@@ -4,17 +4,16 @@ Component Count:,102,,,,,,,,
 Collated Components:,,,,,,,,,
 ,,,,,,,,,
 Item,Qty,Reference(s),Value,Datasheet,Supplier,Manufacturer,Manufacturer Part Number,Price (Each @1),Price (@ Quantity)
-CAP CER 47PF 100V C0G RADIAL,1,C1,47pF,https://product.tdk.com/en/system/files?file=dam/doc/product/capacitor/ceramic/lead-mlcc/catalog/leadmlcc_halogenfree_fg_en.pdf,Digikey,TDK,FG28C0G2A470JNT00,$0.27,$0.27
-CAP TRIMMER 6.5-30PF 100V TH,1,C2,6-30pF,https://media.digikey.com/pdf/Data%20Sheets/EW%20Electronics-Edmar/GKGxx015_016_Series_DS.pdf,Digikey,EW Electronics,GKG30015,$0.97,$0.97
+CAP CER 33PF 100V C0G/NP0 RADIAL,1,C1,33pF,https://datasheets.kyocera-avx.com/SR-Series.pdf,Digikey,KYOCERA AVX,SR151A330JAR,$0.44,$0.44
+CAP TRIMMER 2-5PF 100V TH,1,C2,6-30pF,https://media.digikey.com/pdf/Data%20Sheets/EW%20Electronics-Edmar/GKGxx015_016_Series_DS.pdf,Digikey,EW Electronics,GKG30015,$0.97,$0.97
 CAP CER 0.1UF 100V X7S RADIAL,14,"C3, C4, C5, C6, C7, C8, C9, C10, C17, C18, C19, C22, C23, C25",100nF,https://product.tdk.com/en/system/files?file=dam/doc/product/capacitor/ceramic/lead-mlcc/catalog/leadmlcc_halogenfree_fg_en.pdf,Digkey,TDK,FG28X7S2A104KRT06,$0.38,$5.32
-CAP CER 18PF 100V C0G/NP0 RADIAL,2,"C11, C12",18pF,https://datasheets.kyocera-avx.com/SR-Series.pdf,Digkey,KYOCERA AVX,SR151A180JAR,$0.52,$1.04
+CAP CER 18PF 100V C0G/NP0 RADIAL,3,"C11, C12, C26",18pF,https://datasheets.kyocera-avx.com/SR-Series.pdf,Digkey,KYOCERA AVX,SR151A180JAR,$0.52,$1.56
 CAP ALUM 4.7UF 20% 16V RADIAL,1,C13,4.7uF,https://www.mouser.com/datasheet/2/212/KEM_A4004_ESK-1103206.pdf,Digikey,Kemet,ESK475M016AC3AA,$0.24,$0.24
 CAP CER 47PF 100V C0G RADIAL,1,C14,47nF,https://product.tdk.com/en/system/files?file=dam/doc/product/capacitor/ceramic/lead-mlcc/catalog/leadmlcc_halogenfree_fg_en.pdf,Digkey,TDK,FG28C0G2A470JNT06,$0.27,$0.27
 CAP ALUM 330UF 20% 6.3V RADIAL,2,"C15, C16",330uF,https://www.mouser.com/datasheet/2/212/KEM_A4004_ESK-1103206.pdf,Digikey,Kemet,ESK337M6R3AE3AA,$0.27,$0.54
 CAP CER 1000PF 100V X7R RADIAL,1,C20,1nF,https://product.tdk.com/en/system/files?file=dam/doc/product/capacitor/ceramic/lead-mlcc/catalog/leadmlcc_halogenfree_fg_en.pdf,Digkey,TDK,FG28X7R2A102KNT06,$0.27,$0.27
 CAP ALUM 47UF 20% 6.3V RADIAL,1,C21,47uF,https://www.mouser.com/datasheet/2/212/KEM_A4004_ESK-1103206.pdf,Digikey,Kemet,ESK476M6R3AC3AA,$0.22,$0.22
 CAP ALUM 10UF 20% 16V RADIAL,1,C24,10uF,https://www.mouser.com/datasheet/2/212/KEM_A4004_ESK-1103206.pdf,Digikey,Kemet,ESK106M016AC3KA,$0.24,$0.24
-CAP CER 18PF 100V C0G RADIAL,1,C26,18pF,https://product.tdk.com/en/system/files?file=dam/doc/product/capacitor/ceramic/lead-mlcc/catalog/leadmlcc_halogenfree_fg_en.pdf,Digikey,TDK,FG28C0G2A180JNT00,$0.29,$0.29
 LED GREEN DIFFUSED 3MM ROUND T/H,9,"D1, D2, D3, D4, D5, D6, D7, D8, D9",LED,https://www.we-online.com/components/products/datasheet/151031VS06000.pdf,Digikey,Würth Elektronik,151031VS06000,$0.17,$1.53
 CONN HEADER R/A 36POS 2.54MM (CUT TO LENGTH),1,"J1, J4 (BOTH ARE SAME PART, BOARD TO BOARD CONNECT)",Conn_01x27,https://multimedia.3m.com/mws/media/22446O/3mtm-100-in-pinstriphdr-295matng-length-929-series-ts0768.pdf,Digikey,3M,929500-01-36-RK,$3.52,$3.52
 0.1W Round Ferrite Speaker,1,J2 – Speaker,Speaker_Conn,https://www.jameco.com/z/45P30S-Panasonic-0-1W-Round-Ferrite-Speaker_2205561.html,Jameco,Panasonic,45P30S,$0.69,$0.69
